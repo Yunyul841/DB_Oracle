@@ -1,0 +1,50 @@
+DB - 자료를 영구적으로 저장-
+정형 비정형
+정형 = table 형태 
+------------------------------
+-> 관계형데이터베이스
+도구(oracle, mySql,Maria,Mssql)
+관계형데이터베이스 용어!
+
+릴레이션(테이블) 테이블은 전체를 의미!
+릴레이션은 행과 열로 만들어짐
+행(row) 열(column)
+행(row)은 저장할 대상의 자료! CRUD랑 관련있다.
+열(column)은 속성을 가지고 있으며, 제약조건이 있다.
+제약조건에는 not null, check, unique, key가 있다.
+key = column에 부여하는 기능
+key에는 키본키와 외래키가 있다.
+
+Table은 열(row),행(column)으로 만들어진다.
+column(칼럼) : 테이블에서 열을 의미하며, 인포메이션을의미!
+row(로우) : 테이블에서 행을 의미하며, column안에 레코드를 뜻하며, 튜플이라고도 불린다.
+
+
+check - 검사할 때
+unique - 같은걸 못오게 할 때, 중복이 안되게
+default 값을 안 넣을 떄 기본적으로 나오는 값
+not null 무조건 값을 넣어야함
+varchar2 - 문자
+number - 숫자
+
+CRUD
+C = row insert(행을 삽입하다)   
+R = row select(행을 선택한다)   
+V = row update(행을 갱신한다)  
+D = row delete (행을 삭제한다)
+update = 테이블의 컬럼을 수정하는 명령어
+select = 테이블의 구조를 확인하는 명령어
+
+테이블 생성 방법
+create table000(
+);    
+행 추가 방법
+insert into 00 values();
+행 제거
+DELETE FROM table
+
+외래키 제약조건
+
+
+
+
